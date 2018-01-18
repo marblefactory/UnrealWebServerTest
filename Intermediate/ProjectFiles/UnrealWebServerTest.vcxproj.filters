@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\UnrealWebServerTest.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{AE0CF81C-87C8-4CE6-A23F-DC3B60A8F684}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\UnrealWebServerTest.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\UnrealWebServerTestEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{618B40EC-0F1B-49C6-858B-AC32E5A6B1D4}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Plugins">
+			<UniqueIdentifier>{84CA4E80-9994-41EB-86A4-9D240F0BF5DF}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\UnrealWebServer">
+			<UniqueIdentifier>{F992B325-3C66-4EA7-B1EF-159ED62A4957}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\UnrealWebServer\Source">
+			<UniqueIdentifier>{7511472C-13EF-4FC8-A7D4-08859287DFD3}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\UnrealWebServer\Source\UnrealWebServer">
+			<UniqueIdentifier>{D266DD7B-1615-4898-99A1-AFDCF6130192}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\UnrealWebServer\Source\UnrealWebServer\UnrealWebServer.Build.cs">
+			<Filter>Plugins\UnrealWebServer\Source\UnrealWebServer</Filter>
+		</None >
+		<Filter Include="Plugins\UnrealWebServer\Source\UnrealWebServer\Classes">
+			<UniqueIdentifier>{476CCAFB-BBC5-478C-8828-32D318F26C80}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\UnrealWebServer\Source\UnrealWebServer\Classes\Connection.h">
+			<Filter>Plugins\UnrealWebServer\Source\UnrealWebServer\Classes</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\UnrealWebServer\Source\UnrealWebServer\Classes\Cookie.h">
+			<Filter>Plugins\UnrealWebServer\Source\UnrealWebServer\Classes</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\UnrealWebServer\Source\UnrealWebServer\Classes\Response.h">
+			<Filter>Plugins\UnrealWebServer\Source\UnrealWebServer\Classes</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\UnrealWebServer\Source\UnrealWebServer\Classes\Webserver.h">
+			<Filter>Plugins\UnrealWebServer\Source\UnrealWebServer\Classes</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\UnrealWebServer\Source\UnrealWebServer\Private">
+			<UniqueIdentifier>{9A2404D3-7F81-4AB9-9EA7-A4384FE4A9AF}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\UnrealWebServer\Source\UnrealWebServer\Private\Connection.cpp">
+			<Filter>Plugins\UnrealWebServer\Source\UnrealWebServer\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\UnrealWebServer\Source\UnrealWebServer\Private\Cookie.cpp">
+			<Filter>Plugins\UnrealWebServer\Source\UnrealWebServer\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\UnrealWebServer\Source\UnrealWebServer\Private\HttpRequestMethod.cpp">
+			<Filter>Plugins\UnrealWebServer\Source\UnrealWebServer\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\UnrealWebServer\Source\UnrealWebServer\Private\HttpRequestMethod.h">
+			<Filter>Plugins\UnrealWebServer\Source\UnrealWebServer\Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\UnrealWebServer\Source\UnrealWebServer\Private\HttpStatusCode.cpp">
+			<Filter>Plugins\UnrealWebServer\Source\UnrealWebServer\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\UnrealWebServer\Source\UnrealWebServer\Private\HttpStatusCode.h">
+			<Filter>Plugins\UnrealWebServer\Source\UnrealWebServer\Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\UnrealWebServer\Source\UnrealWebServer\Private\MediaType.cpp">
+			<Filter>Plugins\UnrealWebServer\Source\UnrealWebServer\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\UnrealWebServer\Source\UnrealWebServer\Private\MediaType.h">
+			<Filter>Plugins\UnrealWebServer\Source\UnrealWebServer\Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\UnrealWebServer\Source\UnrealWebServer\Private\Response.cpp">
+			<Filter>Plugins\UnrealWebServer\Source\UnrealWebServer\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\UnrealWebServer\Source\UnrealWebServer\Private\UnrealWebServer.cpp">
+			<Filter>Plugins\UnrealWebServer\Source\UnrealWebServer\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\UnrealWebServer\Source\UnrealWebServer\Private\UnrealWebServerPrivatePCH.h">
+			<Filter>Plugins\UnrealWebServer\Source\UnrealWebServer\Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\UnrealWebServer\Source\UnrealWebServer\Private\Webserver.cpp">
+			<Filter>Plugins\UnrealWebServer\Source\UnrealWebServer\Private</Filter>
+		</ClCompile >
+		<Filter Include="Plugins\UnrealWebServer\Source\UnrealWebServer\Public">
+			<UniqueIdentifier>{DB675C93-18EF-40D4-8D02-BFD8A3FE54FC}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\UnrealWebServer\Source\UnrealWebServer\Public\UnrealWebServer.h">
+			<Filter>Plugins\UnrealWebServer\Source\UnrealWebServer\Public</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\UnrealWebServer\Source\UnrealWebServer\ThirdParty">
+			<UniqueIdentifier>{948C813B-E4BB-43FE-989B-F18243B1FF03}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\UnrealWebServer\Source\UnrealWebServer\ThirdParty\LICENSE.txt">
+			<Filter>Plugins\UnrealWebServer\Source\UnrealWebServer\ThirdParty</Filter>
+		</None >
+		<None Include="..\..\Plugins\UnrealWebServer\Source\UnrealWebServer\ThirdParty\mongoose.c">
+			<Filter>Plugins\UnrealWebServer\Source\UnrealWebServer\ThirdParty</Filter>
+		</None >
+		<ClInclude Include="..\..\Plugins\UnrealWebServer\Source\UnrealWebServer\ThirdParty\mongoose.h">
+			<Filter>Plugins\UnrealWebServer\Source\UnrealWebServer\ThirdParty</Filter>
+		</ClInclude >
+		<None Include="..\..\Plugins\UnrealWebServer\UnrealWebServer.uplugin">
+			<Filter>Plugins\UnrealWebServer</Filter>
+		</None >
+		<Filter Include="Plugins\UnrealWebServer\Config">
+			<UniqueIdentifier>{07B3F09F-12FA-4339-8783-88994D0B12C4}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\UnrealWebServer\Config\FilterPlugin.ini">
+			<Filter>Plugins\UnrealWebServer\Config</Filter>
+		</None >
+		<Filter Include="Plugins\UnrealWebServer\Resources">
+			<UniqueIdentifier>{EC11C26F-B700-4E67-A205-EAA0C9108A3A}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\UnrealWebServer\Resources\Icon128.png">
+			<Filter>Plugins\UnrealWebServer\Resources</Filter>
+		</None >
+		<Filter Include="Source\UnrealWebServerTest">
+			<UniqueIdentifier>{C959A21C-2004-4103-8B37-8B724A3B8788}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\UnrealWebServerTest\UnrealWebServerTest.Build.cs">
+			<Filter>Source\UnrealWebServerTest</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\UnrealWebServerTest\UnrealWebServerTest.cpp">
+			<Filter>Source\UnrealWebServerTest</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\UnrealWebServerTest\UnrealWebServerTest.h">
+			<Filter>Source\UnrealWebServerTest</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\UnrealWebServerTest\UnrealWebServerTestCharacter.cpp">
+			<Filter>Source\UnrealWebServerTest</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\UnrealWebServerTest\UnrealWebServerTestCharacter.h">
+			<Filter>Source\UnrealWebServerTest</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\UnrealWebServerTest\UnrealWebServerTestGameMode.cpp">
+			<Filter>Source\UnrealWebServerTest</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\UnrealWebServerTest\UnrealWebServerTestGameMode.h">
+			<Filter>Source\UnrealWebServerTest</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
